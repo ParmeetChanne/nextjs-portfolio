@@ -10,17 +10,17 @@ import FooterSection from '../../components/FooterSection';
 export default function Home() {
   return (
     <>
-    <div className='px-8'>
+    <div className="px-8">
       <Navbar />
       <HeroSection />
-      <div id='about' className="h-screen">
+      <div id='about'>
        <AboutSection />
       </div>
       <SkillsSection />
-      <div id="projects" className="h-screen">
+      <div id="projects">
         <ProjectsSection />
       </div>
-      <div id="contact" className="h-screen">
+      <div id="contact">
         <ContactSection />
       </div>
       <FooterSection />

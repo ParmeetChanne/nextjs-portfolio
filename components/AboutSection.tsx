@@ -1,5 +1,3 @@
-import React from 'react'
-
 const AboutSection = () => {
     return (
         <>
@@ -13,7 +11,7 @@ const AboutSection = () => {
             </h2>
             <h2
             className="mb-5 text-lg prose text-gray-600 dark:text-gray-400">              
-              I'm dedicated to crafting seamless user experiences in frontend projects but I'm also on a journey to master full-stack development.
+              I am dedicated to crafting seamless user experiences in frontend projects but I am also on a journey to master full-stack development.
             </h2>
           </div>
         </>

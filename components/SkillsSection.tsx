@@ -8,7 +8,7 @@ const TAB_DATA = [
       title: "Programming",
       id: "programming",
       content: (
-        <ul className="list-disc pl-2">
+        <ul className="list-disc pl-2 text-gray-600 dark:text-gray-400">
           <li>Python</li>
           <li>HTML & CSS</li>
           <li>JavaScript</li>
@@ -29,7 +29,7 @@ const TAB_DATA = [
       title: "Professional Skills",
       id: "professional",
       content: (
-        <ul className="list-disc pl-2">
+        <ul className="list-disc pl-2 text-gray-600 dark:text-gray-400">
           <li>Leadership</li>
           <li>Entrepreneurship</li>
           <li>Problem-Solving</li>
@@ -46,10 +46,10 @@ const TAB_DATA = [
       title: "Certifications",
       id: "certifications",
       content: (
-        <ul className="list-disc pl-2">
-          <li>Google UX Design Professional Certificate</li>
+        <ul className="list-disc pl-2 text-gray-600 dark:text-gray-400">
           <li>IBM Data Science Professional Certificate</li>
           <li>Google IT Support Professional Certificate</li>
+          <li>Google UX Design Professional Certificate</li>
           <li>Google Digital Marketing & E-commerce Professional Certificate</li>
           <li>React Developer Certificate</li>
           <li>Complete Ethical Hacking Certificate</li>
@@ -84,7 +84,7 @@ const SkillsSection = () => {
           <h3 className="mb-4 text-2xl font-bold tracking-tight text-dark-200 md:text-4xl dark:text-light-white">
                   Skills
           </h3>
-                <div className="flex flex-col md:flex-row mt-8 text-gray-600 dark:text-gray-400">
+                <div className="flex flex-col md:flex-row mt-8 text-gray-600 dark:text-gray-400 underline underline-offset-4 decoration-dark-200">
                     <div className="mr-4">
                         <TabButton
                         selectTab={() => handleTabChange("programming")}

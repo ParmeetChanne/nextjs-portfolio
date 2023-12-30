@@ -10,7 +10,7 @@ import FooterSection from '../../components/FooterSection';
 export default function Home() {
   return (
     <>
-    <div className="px-8">
+    <div className="">
       <Navbar />
       <HeroSection />
       <div id='about'>

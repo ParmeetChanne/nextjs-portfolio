@@ -3,13 +3,13 @@ import React from 'react'
 const HeroSection = () => {
     return (
         <>
-          <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mt-5 mb-16">
+          <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mt-5 mb-8 md:mb-12">
             <h1
-            className="mb-5 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-light-white">
+            className="mb-3 md:mb-5 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-light-white">
               Hey, I’m <span className="text-transparent bg-gradient-to-br bg-clip-text md:bg-gradient-to-r from-gradient-purple to-gradient-pink">Parmeet Channe</span>
             </h1>
             <h2
-            className="mb-5 text-lg prose text-gray-600 md:mb-14 dark:text-gray-400">
+            className="mb-5 text-lg prose text-gray-600 dark:text-gray-400">
               A passionate student at York University utilizing technology to craft enduring, sustainable solutions that create a significant impact.
             </h2>
             <div>

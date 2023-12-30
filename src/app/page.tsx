@@ -13,12 +13,16 @@ export default function Home() {
     <div className='px-8'>
       <Navbar />
       <HeroSection />
-      <div id='about'>
+      <div id='about' className="h-screen">
        <AboutSection />
       </div>
       <SkillsSection />
-      <ProjectsSection />
-      <ContactSection />
+      <div id="projects" className="h-screen">
+        <ProjectsSection />
+      </div>
+      <div id="contact" className="h-screen">
+        <ContactSection />
+      </div>
       <FooterSection />
     </div>
     </>

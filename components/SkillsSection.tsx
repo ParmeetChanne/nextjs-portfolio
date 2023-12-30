@@ -67,12 +67,13 @@ const TAB_DATA = [
         ),
       },
   ];
+  
 
 const SkillsSection = () => {
     const [tab, setTab] = useState("programming");
     const [isPending, startTransition] = useTransition();
 
-    const handleTabChange = (id) => {
+    const handleTabChange = (id: string) => {
         startTransition(() => {
         setTab(id);
         });
@@ -80,12 +81,12 @@ const SkillsSection = () => {
 
     return (
         <>
-          <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mt-5 mb-16">
-          <h3 className="mb-4 text-2xl font-bold tracking-tight text-dark-200 md:text-4xl dark:text-light-white">
+          <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-8 md:mb-12">
+          <h3 className="mb-2 md:mb-4 text-2xl font-bold tracking-tight text-dark-200 md:text-4xl dark:text-light-white">
                   Skills
           </h3>
-                <div className="flex flex-col md:flex-row mt-8 text-gray-600 dark:text-gray-400 underline underline-offset-4 decoration-dark-200">
-                    <div className="mr-4">
+                <div className="flex flex-col md:flex-row text-gray-600 dark:text-gray-400 underline underline-offset-4 decoration-dark-200">
+                    <div className="mr-4 mb-1 md:mb-0">
                         <TabButton
                         selectTab={() => handleTabChange("programming")}
                         active={tab === "programming"}
@@ -94,7 +95,7 @@ const SkillsSection = () => {
                         Programming{" "}
                         </TabButton>
                     </div>
-                    <div className="mr-4">
+                    <div className="mr-4 mb-1 md:mb-0">
                         <TabButton
                         selectTab={() => handleTabChange("professional")}
                         active={tab === "professional"}
@@ -123,7 +124,7 @@ const SkillsSection = () => {
                     </div>
     */}
                 </div>
-                <div className="mt-8">
+                <div className="mt-4">
                     {TAB_DATA.find((t) => t.id === tab)?.content}
                 </div>
           </div>

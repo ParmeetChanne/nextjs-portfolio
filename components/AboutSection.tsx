@@ -1,7 +1,7 @@
 const AboutSection = () => {
     return (
         <>
-          <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mt-5 mb-4 md:mb-12">
+          <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mt-5 mb-4 md:mb-12 px-8">
           <h3 className="mb-4 text-2xl font-bold tracking-tight text-dark-200 md:text-4xl dark:text-light-white">
                   About Me
           </h3>

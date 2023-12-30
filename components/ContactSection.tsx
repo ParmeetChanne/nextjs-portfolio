@@ -3,7 +3,7 @@ import React from 'react'
 
 const ContactSection = () => {
   return (
-    <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
+    <div className="px-8 flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
         <h3 className=" text-2xl font-bold tracking-tight text-dark-200 md:text-4xl dark:text-light-white">
             Get In Touch
         </h3>

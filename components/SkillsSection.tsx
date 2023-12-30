@@ -81,7 +81,7 @@ const SkillsSection = () => {
 
     return (
         <>
-          <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-8 md:mb-12">
+          <div className="px-8 flex flex-col items-start justify-center max-w-2xl mx-auto mb-8 md:mb-12">
           <h3 className="mb-2 md:mb-4 text-2xl font-bold tracking-tight text-dark-200 md:text-4xl dark:text-light-white">
                   Skills
           </h3>

@@ -3,7 +3,7 @@ import React from 'react'
 const HeroSection = () => {
     return (
         <>
-          <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mt-5 mb-8 md:mb-12">
+          <div className="px-8 flex flex-col items-start justify-center max-w-2xl mx-auto mt-5 mb-8 md:mb-12">
             <h1
             className="mb-3 md:mb-5 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-light-white">
               Hey, I’m <span className="text-transparent bg-gradient-to-br bg-clip-text md:bg-gradient-to-r from-gradient-purple to-gradient-pink">Parmeet Channe</span>

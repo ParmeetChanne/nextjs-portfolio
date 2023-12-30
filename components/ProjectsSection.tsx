@@ -7,7 +7,7 @@ import Image from 'next/image';
 const ProjectsSection = () => {
 
   return (
-    <div className="flex flex-col items-start justify-start max-w-2xl mx-auto mt-5 mb-10">
+    <div className="px-8 flex flex-col items-start justify-start max-w-2xl mx-auto mt-5 mb-10">
         <h3 className="mb-8 text-2xl font-bold tracking-tight text-dark-200 md:text-4xl dark:text-light-white">
                   Favourite Projects
           </h3>

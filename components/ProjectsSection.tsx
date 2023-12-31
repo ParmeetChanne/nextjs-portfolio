@@ -54,11 +54,25 @@ const ProjectsSection = () => {
     </div>
 
     <div>
+      <a className="w-full flex flex-col-reverse md:flex-row-reverse items-center justify-center" href="https://github.com/ParmeetChanne/credit-fraud-detection/">
+        <div className="flex flex-col items-start justify-start w-full max-w-2xl p-5 md:pr-0 mx-auto rounded-lg bg-light-white dark:bg-transparent">
+          <div className="flex flex-col justify-between md:flex-row">
+            <h4 className="w-full mb-2 text-lg text-left font-medium text-gray-900 md:text-xl dark:text-gray-100 dark:hover:text-dark-200 hover:text-dark-200 ">
+              Credit Card Fraud Detection
+            </h4>
+          </div>
+          <p className="w-full text-left text-gray-600 dark:text-gray-400">A Jupyter Notebook to demonstrate the building of a machine learning model to detect credit card fraud using logistic regression and evaluation metrics in Python and Scikit-Learn.</p>
+        </div>
+        <Image className="mb-4" src="/credit-fraud-2.png" alt="credit-fraud" width={300} height={300} />
+      </a>
+    </div>
+
+    <div>
       <a className="w-full flex flex-col-reverse md:flex-row-reverse items-center justify-center" href="https://github.com/ParmeetChanne/Stock-Prediction-Streamlit">
         <div className="flex flex-col items-start justify-start w-full max-w-2xl p-5 md:pr-0 mx-auto rounded-lg bg-light-white dark:bg-transparent">
           <div className="flex flex-col justify-between md:flex-row">
             <h4 className="w-full mb-2 text-lg text-left font-medium text-gray-900 md:text-xl dark:text-gray-100 dark:hover:text-dark-200 hover:text-dark-200 ">
-              Stock Prediction Web Application
+              Stock Price Prediction Webapp
             </h4>
           </div>
           <p className="w-full text-left text-gray-600 dark:text-gray-400">This project is a stock prediction webapp created with Python using Metas Prophet for modeling and Streamlit for Frontend.</p>

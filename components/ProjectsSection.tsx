@@ -27,7 +27,7 @@ const ProjectsSection = () => {
 
     <div>
       <a className="w-full flex flex-col-reverse md:flex-row-reverse items-center justify-center" href="https://github.com/ParmeetChanne/foodsecure">
-        <div className="flex flex-col items-start justify-start w-full max-w-2xl mb-4 p-5 px-8 md:pr-0 mx-auto rounded-lg bg-light-white dark:bg-transparent">
+        <div className="flex flex-col items-start justify-start w-full max-w-2xl mb-4 p-5 md:pr-0 mx-auto rounded-lg bg-light-white dark:bg-transparent">
           <div className="flex flex-col justify-between md:flex-row">
             <h4 className="w-full mb-2 text-lg text-left font-medium text-gray-900 md:text-xl dark:text-gray-100 dark:hover:text-dark-200 hover:text-dark-200 ">
             FoodSecure - Food Sharing Platform
@@ -41,7 +41,7 @@ const ProjectsSection = () => {
 
     <div>
       <a className="w-full flex flex-col-reverse md:flex-row-reverse items-center justify-center" href="https://github.com/ParmeetChanne/Analysing-Economic-Factors-Python">
-        <div className="flex flex-col items-start justify-start w-full max-w-2xl mb-4 p-5 px-8 md:pr-0 mx-auto rounded-lg bg-light-white dark:bg-transparent">
+        <div className="flex flex-col items-start justify-start w-full max-w-2xl mb-4 p-5 md:pr-0 mx-auto rounded-lg bg-light-white dark:bg-transparent">
           <div className="flex flex-col justify-between md:flex-row">
             <h4 className="w-full mb-2 text-lg text-left font-medium text-gray-900 md:text-xl dark:text-gray-100 dark:hover:text-dark-200 hover:text-dark-200 ">
               Economic Analysis With Python
@@ -55,7 +55,7 @@ const ProjectsSection = () => {
 
     <div>
       <a className="w-full flex flex-col-reverse md:flex-row-reverse items-center justify-center" href="https://github.com/ParmeetChanne/credit-fraud-detection/">
-        <div className="flex flex-col items-start justify-start w-full max-w-2xl mb-4 p-5 px-8 md:pr-0 mx-auto rounded-lg bg-light-white dark:bg-transparent">
+        <div className="flex flex-col items-start justify-start w-full max-w-2xl mb-4 p-5 md:pr-0 mx-auto rounded-lg bg-light-white dark:bg-transparent">
           <div className="flex flex-col justify-between md:flex-row">
             <h4 className="w-full mb-2 text-lg text-left font-medium text-gray-900 md:text-xl dark:text-gray-100 dark:hover:text-dark-200 hover:text-dark-200 ">
               Credit Card Fraud Detection
@@ -67,9 +67,9 @@ const ProjectsSection = () => {
       </a>
     </div>
 
-    <div>
+    <div className=''>
       <a className="w-full flex flex-col-reverse md:flex-row-reverse items-center justify-center" href="https://github.com/ParmeetChanne/Stock-Prediction-Streamlit">
-        <div className="flex flex-col items-start justify-start w-full max-w-2xl p-5 px-8 md:pr-0 mx-auto rounded-lg bg-light-white dark:bg-transparent">
+        <div className="flex flex-col items-start justify-start w-full max-w-2xl p-5 mx-auto rounded-lg bg-light-white dark:bg-transparent">
           <div className="flex flex-col justify-between md:flex-row">
             <h4 className="w-full mb-2 text-lg text-left font-medium text-gray-900 md:text-xl dark:text-gray-100 dark:hover:text-dark-200 hover:text-dark-200 ">
               Stock Price Prediction Webapp

@@ -9,7 +9,7 @@ const ContactSection = () => {
         </h3>
         <a href="https://www.linkedin.com/in/parmeet-singh-channe/">
         <div className="flex flex-row items-center justify-between w-full max-w-2xl p-5 pb-0 mx-auto rounded-lg bg-light-white dark:bg-transparent">
-            <Image className='' src="/Linkedin_icon.svg.png" alt="linkedin" width={30} height={30} />
+            <Image className='' src="/linkedin.svg" alt="linkedin" width={30} height={30} />
             <h4 className="w-full ml-4 text-sm font-medium text-gray-900 md:text-xl dark:text-gray-100 dark:hover:text-dark-200 hover:text-dark-200 ">
               LinkedIn: Parmeet Singh
             </h4>

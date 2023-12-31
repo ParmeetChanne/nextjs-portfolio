@@ -7,7 +7,7 @@ const AboutSection = () => {
           </h3>
             <h2
             className="mb-5 text-lg prose text-gray-600 dark:text-gray-400">
-              Passionate about both programming and finance, I thrive on their intersection. Driven by a natural leadership and entrepreneurial skills, I seek to inspire growth and foster innovation in diverse environments, leading to transformative progress.              
+              Passionate about both programming and finance, I thrive on their intersection. Driven by natural leadership skills, I seek to inspire growth and foster innovation in diverse environments, leading to transformative progress.              
             </h2>
             <h2
             className="mb-5 text-lg prose text-gray-600 dark:text-gray-400">              

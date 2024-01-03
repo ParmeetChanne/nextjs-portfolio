@@ -8,7 +8,7 @@ const TAB_DATA = [
       title: "Programming",
       id: "programming",
       content: (
-        <ul className="list-disc pl-2 text-gray-600 dark:text-gray-400">
+        <ul className="list-disc pl-2 text-gray-400">
           <li>Python</li>
           <li>HTML & CSS</li>
           <li>JavaScript</li>
@@ -29,7 +29,7 @@ const TAB_DATA = [
       title: "Professional Skills",
       id: "professional",
       content: (
-        <ul className="list-disc pl-2 text-gray-600 dark:text-gray-400">
+        <ul className="list-disc pl-2 text-gray-400">
           <li>Leadership</li>
           <li>Entrepreneurship</li>
           <li>Problem-Solving</li>
@@ -46,14 +46,16 @@ const TAB_DATA = [
       title: "Certifications",
       id: "certifications",
       content: (
-        <ul className="list-disc pl-2 text-gray-600 dark:text-gray-400">
+        <ul className="list-disc pl-2 text-gray-400">
           <li>IBM Data Science Professional Certificate</li>
           <li>Google IT Support Professional Certificate</li>
           <li>Google UX Design Professional Certificate</li>
           <li>Google Digital Marketing & E-commerce Professional Certificate</li>
           <li>React Developer Certificate</li>
           <li>Complete Ethical Hacking Certificate</li>
-          <li></li>
+          <li>CFI Data Science and Machine Learning Fundamentals</li>
+          <li>CFI Economics for Capital Markets</li>
+          <li>CFI Reading Financial Statements</li>
         </ul>
       ),
     },
@@ -82,10 +84,10 @@ const SkillsSection = () => {
     return (
         <>
           <div className="px-8 flex flex-col items-start justify-center max-w-2xl mx-auto mb-8 md:mb-12">
-          <h3 className="mb-2 md:mb-4 text-2xl font-bold tracking-tight text-dark-200 md:text-4xl dark:text-light-white">
+          <h3 className="mb-2 md:mb-4 text-2xl font-bold tracking-tight md:text-4xl text-light-white">
                   Skills
           </h3>
-                <div className="flex flex-col md:flex-row text-gray-600 dark:text-gray-400 underline underline-offset-4 decoration-dark-200">
+                <div className="flex flex-col md:flex-row text-gray-400 underline underline-offset-4 decoration-dark-200">
                     <div className="mr-4 mb-1 md:mb-0">
                         <TabButton
                         selectTab={() => handleTabChange("programming")}

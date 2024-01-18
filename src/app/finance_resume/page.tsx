@@ -7,7 +7,7 @@ const DownloadPage = () => {
     // Function to trigger file download
     const downloadFile = () => {
       // Replace 'yourfile.txt' with the actual file name and path
-      const fileUrl = '../public/Parmeet_Singh_Business.docx';
+      const fileUrl = '/Parmeet_Singh_Business.docx';
 
       // Create a link element
       const link = document.createElement('a');

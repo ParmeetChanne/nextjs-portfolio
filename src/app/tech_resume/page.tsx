@@ -36,7 +36,7 @@ const DownloadPage = () => {
 
   return (
     <div>
-      <p className='text-center'>Downloading Parmeet Singh's Resume...</p>
+      <p className='text-center'>Downloading Parmeet Singh Resume...</p>
     </div>
   );
 };

@@ -26,12 +26,28 @@ const TAB_DATA = [
       ),
     },
     {
+      title: "Finance",
+      id: "finance",
+      content: (
+        <ul className="list-disc pl-2 text-gray-400">
+          <li>Financial Modelling</li>
+          <li>Financial Forecasting</li>
+          <li>Microsoft 365 Suite</li>
+          <li>PowerBI</li>
+          <li>Tableau</li>
+          <li>Financial Data Analysis</li>
+          <li>Excellent Presentation Skills</li>
+        </ul>
+      ),
+    },
+    {
       title: "Professional Skills",
       id: "professional",
       content: (
         <ul className="list-disc pl-2 text-gray-400">
           <li>Leadership</li>
           <li>Entrepreneurship</li>
+          <li>Organizational</li>
           <li>Problem-Solving</li>
           <li>Effective Communication and Collaboration</li>
           <li>Project Management & Organization</li>
@@ -72,7 +88,7 @@ const TAB_DATA = [
   
 
 const SkillsSection = () => {
-    const [tab, setTab] = useState("programming");
+    const [tab, setTab] = useState("finance");
     const [isPending, startTransition] = useTransition();
 
     const handleTabChange = (id: string) => {
@@ -88,6 +104,15 @@ const SkillsSection = () => {
                   Skills
           </h3>
                 <div className="flex flex-col md:flex-row text-gray-400 underline underline-offset-4 decoration-dark-200">
+                    <div className="mr-4 mb-1 md:mb-0">
+                        <TabButton
+                        selectTab={() => handleTabChange("finance")}
+                        active={tab === "finance"}
+                        >
+                        {" "}
+                        Finance{" "}
+                        </TabButton>
+                    </div>
                     <div className="mr-4 mb-1 md:mb-0">
                         <TabButton
                         selectTab={() => handleTabChange("programming")}

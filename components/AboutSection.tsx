@@ -7,11 +7,12 @@ const AboutSection = () => {
           </h3>
             <h2
             className="mb-5 text-lg prose text-gray-400">
-              Passionate about both programming and finance, I thrive on their intersection. Driven by natural leadership skills, I seek to inspire growth and foster innovation in diverse environments, leading to transformative progress.              
+              I have a particular love for finance, capital markets, and corporate finance. I get satisfaction from making sense of seemingly meaningless data to strategically evolve businesses.
             </h2>
+            
             <h2
             className="mb-5 text-lg prose text-gray-400">              
-              I am dedicated to crafting seamless user experiences in frontend projects but I am also on a journey to master full-stack development.
+              Alongside, I love to learn new things and share that knowledge through teaching. Leadership and volunteering are integral to my ethos, reflecting my commitment to making a positive impact.
             </h2>
           </div>
         </>

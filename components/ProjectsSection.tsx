@@ -25,6 +25,20 @@ const ProjectsSection = () => {
   </div>*/}
 
     <div>
+      <a className="w-full flex flex-col-reverse md:flex-row-reverse items-center justify-center">
+        <div className="flex flex-col items-start justify-start w-full max-w-2xl mb-4 p-5 md:pr-0 mx-auto rounded-lg bg-transparent">
+          <div className="flex flex-col justify-between md:flex-row">
+            <h4 className="w-full mb-2 text-lg text-left font-medium  md:text-xl text-gray-100  hover:text-dark-200 ">
+            DCF Valuation Model: Mondelez International
+            </h4>
+          </div>
+          <p className="w-full text-left text-gray-400">Developed a robust DCF valuation model, conducting in-depth financial analysis, unlevered free cash flow projections, and sensitivity analysis.</p>
+        </div>
+        <Image className="mb-4" src="/mdlz.png" alt="foodsecure" width={300} height={300} />
+      </a>
+    </div>
+    
+    <div>
       <a className="w-full flex flex-col-reverse md:flex-row-reverse items-center justify-center" href="https://github.com/ParmeetChanne/foodsecure">
         <div className="flex flex-col items-start justify-start w-full max-w-2xl mb-4 p-5 md:pr-0 mx-auto rounded-lg bg-transparent">
           <div className="flex flex-col justify-between md:flex-row">
